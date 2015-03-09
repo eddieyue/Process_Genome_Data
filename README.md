@@ -1,1 +1,1 @@
-# Process_Genome_Data
+I process over 10 gigabytes genome data on distributed system, construct similarity matrix of Genome by computing DNA distance and reconstruct Cladogram by clustering the genomes. Implement the method to process large data set with limit memory.
