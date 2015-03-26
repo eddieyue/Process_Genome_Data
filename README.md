@@ -9,13 +9,15 @@ The following bit of simple code to show how to extract and display them.
 
 ```python
 from DAL import create
-#create a handle to the Genome dataset
+
+# Create a handle to the Genome dataset
 genomes = create("genomes")
-#loading the genome data
-genomes.subsets()->list(str)
-#returns a list of all genomes in the project. 
+
+# Load the genome data, returns a list of all genomes in the project 
+genomes.subsets()
+
+# Returns a generator of all k-­length strings of DNA from the given genome
 genomes.k_mers(genome:str,length:int)->list(str)
-#returns a generator of all k-­length strings of DNA from the given genome.
 ```
 
 Compute the DNA distance matrix
