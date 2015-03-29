@@ -29,3 +29,7 @@ Reconstruct Cladogram
 =====================
 
 By using the similarity matrix, I generate a list of all pairs of genomes sorted by their similarity. Do agglomerative hierarchical clustering with the single linkage and print out all grouping events in chronological order. 
+
+Please check the notebook here for detail:
+ 
+http://nbviewer.ipython.org/github/eddieyue/Process_Genome_Data/blob/master/Process%20Over%2010%20Gigabytes%20Genome%20Data%20%20.ipynb
