@@ -23,12 +23,12 @@ genomes.k_mers(genome:str,length:int)->list(str)
 Compute the DNA distance matrix
 ===============================
 
-I break up the genome finto strands files, then sort them and commbine all sorted strand files together by heapq.merge. By scanning the combined strand file, I construct a similarity matrix by check which genomes have DNA in common.
+I break up the genome finto strands files, then sort them and commbine all sorted strand files together by heapq.merge. By scanning the combined strand file, I construct a similarity matrix by check how many same strands between those genomes.
 
 Reconstruct Cladogram
 =====================
 
-By using the similarity matrix, I generate a list of all pairs of genomes sorted by their similarity. Do agglomerative hierarchical clustering with the single linkage and print out all grouping events in chronological order. 
+By using the similarity matrix, I generate a list of all pairs of genomes sorted by their similarity. In order to reconstruct Cladogram, I implement agglomerative hierarchical clustering with the single linkage and print out all grouping events in chronological order. 
 
 Please check the notebook here for detail:
  
